@@ -141,12 +141,18 @@
   <ItemGroup>
     <ClInclude Include="Animal.h" />
     <ClInclude Include="Carnivore.h" />
+    <ClInclude Include="Elk.h" />
+    <ClInclude Include="Fox.h" />
     <ClInclude Include="Herbivore.h" />
+    <ClInclude Include="Rabbit.h" />
+    <ClInclude Include="Wolf.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Animal.cpp" />
-    <ClCompile Include="Carnivore.cpp" />
-    <ClCompile Include="Herbivore.cpp" />
+    <ClCompile Include="Elk.cpp" />
+    <ClCompile Include="Fox.cpp" />
+    <ClCompile Include="Rabbit.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Wolf.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
