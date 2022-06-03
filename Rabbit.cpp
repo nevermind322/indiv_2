@@ -2,5 +2,15 @@
 
 Animal* Rabbit::Interact(Animal& other)
 {
-	return nullptr;
+	if (typeid(this).name() == typeid(other).name())
+	{
+		int hp = rand() % 10;
+		int str = rand() % 4;
+		Rabbit temp(hp, str);
+		return &temp;
+	}
+	else
+	{
+		return nullptr;
+	}
 }

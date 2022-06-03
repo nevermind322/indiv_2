@@ -9,6 +9,6 @@ public:
 
     // Унаследовано через Carnivore
     virtual Animal* Interact(Animal& other) override;
-
+    
 };
 

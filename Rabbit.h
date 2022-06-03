@@ -8,6 +8,6 @@ public:
 
     // Унаследовано через Herbivore
     virtual Animal* Interact(Animal& other) override;
-
+    
 };
 
